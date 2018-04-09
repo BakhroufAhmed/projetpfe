@@ -5,5 +5,16 @@
     <artifactId>erp-springboot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+  
   <artifactId>DAL</artifactId>
+  <packaging>jar</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>erp</groupId>
+      <artifactId>BLL</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency> 
+  </dependencies>
+ 
 </project>
